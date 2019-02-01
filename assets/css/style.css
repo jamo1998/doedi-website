@@ -11,18 +11,18 @@ li {
 
 .men {
     padding: 5px 8px;
-    color: #ffffff;
+    color: #f4e242;
     font-family: firstFont;
 }
 
 a {
     color: #f4e242;
-    
+
 }
 
-.nav-link:hover {
-    background-color: #f4e242;
-    color: #000000;
+.men:hover {
+    color: #f4e242;
+
 }
 
 .main-content {
@@ -92,7 +92,9 @@ h5 {
 .logo-div {
     width: 350px;
     height: 107px;
-    
+    position: relative;
+    left: 75px;
+
 }
 
 .logo {
@@ -107,13 +109,122 @@ h5 {
 .head-nav {
     position: relative;
     top: 30px;
+    right: 75px;
 }
 
 #pattern {
-   background-image: url("../images/background.pattern.png");
+    background-image: url("../images/background.pattern.png");
 }
 
 @font-face {
     font-family: firstFont;
     src: url("../images/TwCenClassMTStd-Regular.otf");
+}
+
+.item-img {
+    border: 1px solid #f4e242;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: 25px;
+}
+
+.item-name {
+    position: relative;
+    bottom: 50;
+    font-size: 30px;
+    bottom: 50px;
+    left: 120px;
+}
+
+.item-price {
+    position: relative;
+    top: 80px;
+    text-align: right;
+    word-spacing: 75px;
+    font-weight: bold;
+}
+
+.item-qty {
+    text-align: right;
+    position: relative;
+    top: 74px;
+    word-spacing: 80px;
+    right: 10px;
+}
+
+.menu-container {
+    border: 1px solid black;
+    position: relative;
+    top: 100px;
+    background-color: #f4e242;
+}
+
+.menu-row {
+    background-color: #000000;
+    border-bottom: 1px solid #f4e242;
+    color: #f4e242;
+
+}
+
+.card-title {
+   text-align: center;
+   font-size: 30px;
+}
+
+.card-body {
+    background-color: #000000;
+    color: #f4e242;
+}
+
+.men-icon {
+    max-width: 300px;
+    margin: 25px;
+}
+
+.menu-cards {
+    position: relative;
+    top: 20px;
+}
+
+.menu-header {
+    text-align: center;
+    font-weight: bold;
+    color: #000000;
+}
+
+.icon-container {
+    max-width: 1300px;
+}
+
+.coming-soon {
+    position: relative;
+    top: 100px;
+    color: #f4e242;
+    text-align: center;
+    background-color: #000000;
+    padding: 50px;
+}
+
+.sativa {
+    margin-top: 50px;
+}
+
+.hybrid {
+    margin-top: 50px;
+}
+
+.indica {
+    margin-top: 50px;
+}
+
+#edibles-icon {
+    position: relative;
+    left: 210px;
+    top: 50px;
+}
+
+#tinctures-icon {
+    position: relative;
+    top: 50px;
 }
