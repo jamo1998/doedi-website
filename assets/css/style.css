@@ -1,6 +1,6 @@
 .jumbotron {
     background-color: rgb(22, 22, 22);
-    color: #ffea32;
+    color: #d4af37;
     padding: 20px 20px 0px 20px;
     margin-bottom: 0px;
 }
@@ -11,23 +11,23 @@ li {
 
 .men {
     padding: 5px 8px;
-    color: #f4e242;
+    color: #d4af37;
     font-family: firstFont;
 }
 
 a {
-    color: #f4e242;
+    color: #d4af37;
 
 }
 
 .men:hover {
-    color: #f4e242;
+    color: #d4af37;
 
 }
 
 .main-content {
-    border: 1px solid #f4e242;
-    color: #f4e242;
+    border: 1px solid #d4af37;
+    color: #d4af37;
     background-color: black;
     height: 1000px;
 }
@@ -49,15 +49,16 @@ h5 {
 }
 
 .menu-btn {
-    border: 1px solid #f4e242;
-    color: #f4e242;
+    border: 1px solid #d4af37;
+    color: #d4af37;
     padding: 10px 20px;
     position: relative;
     top: 20px;
+    
 }
 
 .menu-btn:hover {
-    background-color: #f4e242;
+    background-color: #d4af37;
     color: #000000;
 }
 
@@ -71,22 +72,25 @@ h5 {
 }
 
 .text-warning {
-    color: #f4e242;
+    color: #d4af37;
     background-color: #000000;
 }
 
 .card-header {
-    background-color: #f4e242;
-    border: 1px solid #f4e242;
+    background-color: #d4af37;
+    border: 1px solid #d4af37;
     font-size: 25px;
 }
 
 .list-group-item {
     font-size: 18px;
+    background-color: #000000;
+    border-bottom: 1px solid #d4af37
 }
 
 .hours {
-    background-color: #ffffff;
+    background-color: #000000;
+    border-bottom: 1px solid #d4af37;
 }
 
 .logo-div {
@@ -122,7 +126,7 @@ h5 {
 }
 
 .item-img {
-    border: 1px solid #f4e242;
+    border: 1px solid #d4af37;
     height: 100px;
     width: 100px;
     position: relative;
@@ -154,16 +158,16 @@ h5 {
 }
 
 .menu-container {
-    border: 1px solid black;
+    border: 3px solid #d4af37;
     position: relative;
     top: 100px;
-    background-color: #f4e242;
+    background-color: #d4af37
 }
 
 .menu-row {
     background-color: #000000;
-    border-bottom: 1px solid #f4e242;
-    color: #f4e242;
+    border-bottom: 1px solid #d4af37;
+    color: #d4af37;
 
 }
 
@@ -174,12 +178,14 @@ h5 {
 
 .card-body {
     background-color: #000000;
-    color: #f4e242;
+    color: #d4af37;
 }
 
 .men-icon {
     max-width: 300px;
-    margin: 25px;
+    margin: 5px;
+    border: 3px solid #d4af37;
+    overflow: hidden;
 }
 
 .menu-cards {
@@ -197,10 +203,18 @@ h5 {
     max-width: 1300px;
 }
 
+.men-icon:hover {
+    cursor: pointer;
+    max-width: 350px;
+    max-height: 390px;
+}
+
 .coming-soon {
+    border: 7px solid #d4af37;
+    border-radius: 20px;
     position: relative;
     top: 100px;
-    color: #f4e242;
+    color: #d4af37;
     text-align: center;
     background-color: #000000;
     padding: 50px;
@@ -227,4 +241,38 @@ h5 {
 #tinctures-icon {
     position: relative;
     top: 50px;
+}
+
+.deals {
+    color: #d4af37;
+    background-color: #000000;
+    text-align: center;
+    font-size: 50px;
+    padding: 20px;
+    margin: 15px auto;
+    border: 3px solid #d4af37;
+    border-radius: 10px;
+}
+
+.deal-btn {
+    position: relative;
+    bottom: 10px;
+}
+
+.deals-container {
+    padding: 25px;
+}
+
+.hours-card {
+    border: 3px solid #d4af37;
+    
+}
+
+.instructions {
+    font-size: 25px;
+}
+
+.home-c {
+    color: #000000;
+    font-style: firstFont;
 }
