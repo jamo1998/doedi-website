@@ -54,10 +54,6 @@ h5 {
     padding: 10px 20px;
     position: relative;
     top: 20px;
-    
-}
-
-.menu-btn:hover {
     background-color: #d4af37;
     color: #000000;
 }
@@ -136,7 +132,7 @@ h5 {
 .item-name {
     position: relative;
     bottom: 50;
-    font-size: 30px;
+    font-size: 22px;
     bottom: 50px;
     left: 120px;
 }
@@ -225,7 +221,7 @@ h5 {
 }
 
 .hybrid {
-    margin-top: 50px;
+    margin-top: 90px;
 }
 
 .indica {

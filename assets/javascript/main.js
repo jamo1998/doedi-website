@@ -3,8 +3,11 @@ $(document).ready(function() {
     $(".flower-section").hide();
     $(".vapes-section").hide();
     $(".coming-soon").hide();
+    $(".edibles-section").hide();
+    
 
     $("#flower-icon").click(function() {
+        $(".edibles-section").hide();
         $(".tinctures").hide();
         $(".vapes-section").hide();
         $(".coming-soon").hide();
@@ -12,6 +15,7 @@ $(document).ready(function() {
     });
 
     $("#vapes-icon").click(function() {
+        $(".edibles-section").hide();
         $(".tinctures").hide();
         $(".flower-section").hide();
         $(".coming-soon").hide();
@@ -19,17 +23,19 @@ $(document).ready(function() {
     });
 
     $("#concentrates-icon").click(function() {
+        $(".edibles-section").hide();
         $(".tinctures").hide();
-        $(".vapes-section").hide();
         $(".flower-section").hide();
+        $(".vapes-section").hide();
         $(".coming-soon").toggle();
     });
 
     $("#edibles-icon").click(function() {
+        $(".coming-soon").hide();
         $(".tinctures").hide();
         $(".vapes-section").hide();
         $(".flower-section").hide();
-        $(".coming-soon").toggle();
+        $(".edibles-section").toggle();
     });
 
     $("#tinctures-icon").click(function() {
