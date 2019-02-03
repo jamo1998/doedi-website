@@ -42,6 +42,7 @@ a {
 
 .carousel-caption {
     bottom: 350px;
+    color: #ffffff;
 }
 
 h5 {
@@ -114,6 +115,7 @@ h5 {
 
 #pattern {
     background-image: url("../images/background.pattern.png");
+    font-style: url("../images/TwCenClassMTStd-Regular.otf");
 }
 
 @font-face {
@@ -272,3 +274,9 @@ h5 {
     color: #000000;
     font-style: firstFont;
 }
+
+.home-b {
+    color: #ffffff;
+    font-style: firstFont;
+}
+
